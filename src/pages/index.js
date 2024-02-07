@@ -1,6 +1,9 @@
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 
+import Banner from "@/Componentes/Banner";
+
+
 export default function Home() {
   return (
     <>
@@ -14,9 +17,13 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
       </Head>
+
       <main className={`${styles.main}`}>
 
+        <Banner />
+
       </main>
+
     </>
   );
 }

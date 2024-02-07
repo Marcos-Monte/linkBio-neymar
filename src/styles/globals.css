@@ -1,8 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --fonte-montserrat: 'Montserrat', sans-serif;
     --fonte-infant: 'Ysabeau Infant', sans-serif;
     --cor-branco: #fff;
     --cor-preto: #000;
     --cor-preto-transparente: #0200006e;
-    --gradiente: linear-gradient(to right, #ffdf00, #009c3b);
+    --gradiente: linear-gradient(90deg, #ffdf00, #009c3b);
+}
+
+main {
+    color: var(--cor-branco)
 }
