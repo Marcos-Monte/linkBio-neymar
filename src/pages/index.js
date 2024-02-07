@@ -2,6 +2,7 @@ import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 
 import Banner from "@/Componentes/Banner";
+import Estatisticas from "@/Componentes/Estatisticas";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <main className={`${styles.main}`}>
 
         <Banner />
+        <Estatisticas />
 
       </main>
 

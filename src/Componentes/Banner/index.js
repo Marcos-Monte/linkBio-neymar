@@ -11,10 +11,6 @@ const Banner = () => {
     return (
         <section className={style.banner}>
 
-            <video className={style.video} autoPlay loop muted>
-                <source src='/Video/videoneymar.mp4' type='video/mp4'></source>
-            </video>
-
             <div className={style.infos}>
 
                 <div className={style.borda_gradiente}>
@@ -24,9 +20,10 @@ const Banner = () => {
                         src={ImagemNeymar}
                         alt='Neymar Junior'
                     />
+
                 </div>
 
-                <h1 className={style.titulo}>Neymar Jr</h1>
+                <h1 className={`tituloGlobal ${style.titulo}`}>Neymar Jr</h1>
 
             </div>
 
@@ -49,6 +46,10 @@ const Banner = () => {
 
                 }
             </div>
+
+            <video className={style.video} autoPlay loop muted>
+                <source src='/Video/videoneymar.mp4' type='video/mp4'></source>
+            </video>
         </section>
     )
 }

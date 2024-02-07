@@ -1,0 +1,36 @@
+.container {
+    background: url('/Assets/Img/imagem-de-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+    font-family: var(--fonte-montserrat);
+}
+
+.tabela {
+    width: 100%;
+    max-width: 768px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabela tr:first-child {
+    font-size: 20px;
+}
+
+.tabela tr:nth-child(odd) {
+    background-color: var(--cor-preto-transparente);
+    height: 50px;
+    color: var(--branco);
+}
+
+.tabela tr:nth-child(even) {
+    background-color: var(--cor-branco-transparente);
+    height: 50px;
+    color: var(--cor-preto)
+}

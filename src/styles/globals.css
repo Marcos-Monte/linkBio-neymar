@@ -10,9 +10,16 @@
     --cor-branco: #fff;
     --cor-preto: #000;
     --cor-preto-transparente: #0200006e;
+    --cor-branco-transparente: #ffffff88;
     --gradiente: linear-gradient(90deg, #ffdf00, #009c3b);
 }
 
 main {
     color: var(--cor-branco)
+}
+
+.tituloGlobal {
+    position: relative;
+    text-shadow: 3px 6px 1px var(--cor-preto);
+    font-size: 56px;
 }
