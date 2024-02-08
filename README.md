@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-     <a href="https://next-restaurant-ecru.vercel.app/">📱 Visit this Project</a>
+     <a href="https://link-bio-neymar-eta.vercel.app/">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -36,35 +36,29 @@
 
 <h3>Cloning</h3>
 
-How to clone the project
+- How to clone the project
 
 ```bash
-git clone https://github.com/Marcos-Monte/next-restaurant
+git clone https://github.com/Marcos-Monte/linkBio-neymar
 ```
+<h3>Setting up Video Loader</h3>
 
-<h3>Getting Started</h3>
-
-How to start the project
+- To handle video files in Next.js, a loader needs to be configured. You can use either 'file-loader' or 'url-loader'. Install one of them as a development dependency:
 
 ```bash
-cd next-restaurant
-npm run dev
+
 ```
-<h3>Address</h3>
-
-## O webpack não vem configurado para lidar com arquivos do tipo '.mp4'
-- no Next.js é necessário configurar um loader adequado para lidar com videos
-- Podendo ser o pacote 'file-loader' ou 'url-loader'
-- Instale um dos dois como dependencia no projeto
-
+```bash
 npm install --save-dev file-loader
+# or
+yarn add --dev file-loader
+```
+- Configure the 'next.config.js' file accordingly:
 
+- Example using 'file-loader'
 
-## Configurar o 'next.config.js'
-- Configurando para adicionar o loader de arquivos de vídeo.
-
-#### Exemplo 'file-loader'
-// next.config.js
+```bash
+# next.config.js
 
 module.exports = {
   webpack: (config) => {
@@ -78,11 +72,12 @@ module.exports = {
     return config;
   },
 };
+```
 
+- Example using 'url-loader'
 
-#### Exemplo 'url-loader'
-
-// next.config.js
+```bash
+# next.config.js
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -101,4 +96,25 @@ const nextConfig = {
 
 export default nextConfig;
 
+```
+
+<h3 id="started">🚀 Getting Started</h3>
+
+- Navigate to the project directory:
+
+```bash
+cd linkBio-neymar
+```
+
+- Install project dependencies:
+
+```bash
+npm install
+```
+
+- Run the project in development mode:
+
+```bash
+npm run dev
+```
 
