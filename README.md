@@ -46,9 +46,6 @@ git clone https://github.com/Marcos-Monte/linkBio-neymar
 - To handle video files in Next.js, a loader needs to be configured. You can use either 'file-loader' or 'url-loader'. Install one of them as a development dependency:
 
 ```bash
-
-```
-```bash
 npm install --save-dev file-loader
 # or
 yarn add --dev file-loader
