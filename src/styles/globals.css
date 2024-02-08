@@ -15,11 +15,12 @@
 }
 
 main {
-    color: var(--cor-branco)
+    color: var(--cor-branco);
+    /* min-width: 280px; */
 }
 
 .tituloGlobal {
     position: relative;
     text-shadow: 3px 6px 1px var(--cor-preto);
-    font-size: 56px;
+    font-size: 42px;
 }

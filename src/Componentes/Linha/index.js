@@ -5,7 +5,7 @@ import style from './Linha.module.css';
 export default function Linha(props) {
     return (
         <tr>
-            <td>
+            <td className={style.celula}>
                 <div className={style.container_time}>
 
                     <Image
@@ -16,11 +16,11 @@ export default function Linha(props) {
                     <p>{props.time}</p>
                 </div>
             </td>
-            <td>{props.temporadas}</td>
-            <td>{props.jogos}</td>
-            <td>{props.gols}</td>
-            <td>{props.assistencias}</td>
-            <td>{props.titulos}</td>
+            <td className={style.celula}>{props.temporadas}</td>
+            <td className={style.celula}>{props.jogos}</td>
+            <td className={style.celula}>{props.gols}</td>
+            <td className={style.celula}>{props.assistencias}</td>
+            <td className={style.celula}>{props.titulos}</td>
         </tr>
     )
 }

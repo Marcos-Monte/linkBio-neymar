@@ -8,29 +8,38 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3em;
+    gap: 40px;
     font-family: var(--fonte-montserrat);
+}
+
+.titulo {
+    font-size: 56px;
 }
 
 .tabela {
     width: 100%;
     max-width: 768px;
+    min-width: 643px;
     text-align: center;
     font-weight: bold;
+    overflow-y: auto;
 }
 
-.tabela tr:first-child {
-    font-size: 20px;
-}
-
-.tabela tr:nth-child(odd) {
-    background-color: var(--cor-preto-transparente);
+.tabela tr {
     height: 50px;
+}
+
+.tabela thead tr {
+    font-size: 20px;
+    background-color: var(--cor-preto-transparente);
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: var(--cor-preto-transparente);
     color: var(--branco);
 }
 
-.tabela tr:nth-child(even) {
+.tabela tbody tr:nth-child(odd) {
     background-color: var(--cor-branco-transparente);
-    height: 50px;
     color: var(--cor-preto)
 }
