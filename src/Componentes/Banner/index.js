@@ -19,6 +19,7 @@ const Banner = () => {
                         className={style.imagem}
                         src={ImagemNeymar}
                         alt='Neymar Junior'
+                        priority={true}
                     />
 
                 </div>

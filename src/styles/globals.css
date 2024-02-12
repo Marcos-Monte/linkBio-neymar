@@ -16,7 +16,7 @@
 
 main {
     color: var(--cor-branco);
-    /* min-width: 280px; */
+    min-width: 643px;
 }
 
 .tituloGlobal {
