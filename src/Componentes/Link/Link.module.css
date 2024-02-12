@@ -8,6 +8,8 @@
     position: relative;
     padding: 10px;
     font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-branco)
 }
 
 .imagem {

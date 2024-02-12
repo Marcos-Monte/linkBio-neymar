@@ -15,27 +15,33 @@ export const links = [
     {
         imagem: Yt,
         descricao: 'Siga meu canal no Youtube',
-        nome: 'Youtube'
+        nome: 'Youtube',
+        url: "https://www.youtube.com/@NeymarJrReal"
     },
     {
         imagem: Insta,
         descricao: 'Me siga no Instagram',
-        nome: 'Instagram'
+        nome: 'Instagram',
+        url: "https://www.instagram.com/neymarjr/"
+
     },
     {
         imagem: Twitter,
         descricao: 'Me siga no Twitter',
-        nome: 'Twitter'
+        nome: 'Twitter',
+        url: "https://twitter.com/neymarjr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
     },
     {
         imagem: Face,
         descricao: 'Me siga no Facebook',
-        nome: 'Facebook'
+        nome: 'Facebook',
+        url: "https://www.facebook.com/neymarjr/?locale=pt_BR"
     },
     {
         imagem: Twitch,
         descricao: 'Me siga na Twitch',
-        nome: 'Twitch'
+        nome: 'Twitch',
+        url: "https://www.twitch.tv/neymarjr"
     },
 
 ]

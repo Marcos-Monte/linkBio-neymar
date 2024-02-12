@@ -40,6 +40,7 @@ const Banner = () => {
                                 imagem={link.imagem}
                                 nome={link.nome}
                                 descricao={link.descricao}
+                                url={link.url}
                             />
                         )
 
